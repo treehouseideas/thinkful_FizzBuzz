@@ -1,5 +1,5 @@
 $(document).ready(function(){
-var enterNumber = prompt("Enter a Number");
+var enterNumber = prompt("Please enter a number to Fizz Buzz");
 var convertNumber = +enterNumber;
 var fizzBuzzFunc = function(){
 	for(var i = 1; i < +convertNumber +1; i++){
